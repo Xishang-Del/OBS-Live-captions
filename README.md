@@ -81,7 +81,7 @@ python -X utf8 model_download.py sensevoice
 
 ## 四、口音和方言
 
-- **普通话带口音**（广西、广东、川渝等）：识别引擎用默认的 **SenseVoice**（中文专精），
+- **普通话带口音** 识别引擎用默认的 **SenseVoice**（中文专精），
   它对带口音的普通话和口语比 Whisper 更稳，而且不占显存。说话离麦克风近一点，降噪打开。
 - **说粤语**：语言切到「粤语（粤语口音）」，SenseVoice 支持粤语。
 - **中英混说、英文多**：可以切到 Whisper 引擎（多语言更强，但更吃硬件）。
@@ -229,9 +229,9 @@ realtime-subtitle\
 ├─ model_download.py     模型下载
 ├─ selftest.py           命令行自测
 ├─ demo.wav              自检用测试语音
-├─ config.json           设置（自动生成，已 gitignore）
-├─ models\               模型目录（已 gitignore）
-└─ output\               识别记录（已 gitignore）
+├─ config.json           设置（自动生成）
+├─ models\               模型目录
+└─ output\               识别记录
 ```
 
 ---
